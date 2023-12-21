@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "26405eb3-8feb-46f4-84aa-7f8632fecd06",
+		"name": "API Client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3341396"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7029/api/Client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Rut\":\"15473242-K\",\r\n    \"FirstName\":\"Pamela\",\r\n    \"LastName\":\"Cortes\",\r\n    \"Address\":\"almirante Byrd 2038\",\r\n    \"City\":\"Santiago\",\r\n    \"PhoneNumber\":\"957180819\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7029/api/Client",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7029",
+					"path": [
+						"api",
+						"Client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7029/api/Client/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"Address\":\"Almirante Byrd 2038\",\r\n    \"City\":\"Calama\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7029/api/Client/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7029",
+					"path": [
+						"api",
+						"Client",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7029/api/Client/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7029/api/Client/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7029",
+					"path": [
+						"api",
+						"Client",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7029/api/Client",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7029/api/Client",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7029",
+					"path": [
+						"api",
+						"Client"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
